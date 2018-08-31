@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "266942078380",
+    "firebase_url": "https://fir-demo-57558.firebaseio.com",
+    "project_id": "fir-demo-57558",
+    "storage_bucket": "fir-demo-57558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266942078380:android:c24fd79af480ce3b",
+        "android_client_info": {
+          "package_name": "org.nativescript.loginproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266942078380-5fci2l184m5sr7fbof2abrn0eng2ihl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBawRJNEXItHl4tJ4J0IqkrM7ItXNHUXLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/user/Documents/login-project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

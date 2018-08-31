@@ -1,0 +1,20 @@
+<GridLayout backgroundColor="#CCCCCC">
+    <StackLayout margin="15" verticalAlignment="center">
+        <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
+            <StackLayout class="input-field">
+                <Label text="Email" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" [(ngModel)]="email"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Password" class="label font-weight-bold m-b-5"></Label>
+                <TextField secure="true" class="input" [(ngModel)]="password"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <Button class="btn btn-primary" text="Login" (tap)="login()"></Button>
+            <Label [nsRouterLink]="['/register']" text="Not a member? Register here." class="text-center footnote"></Label>
+            <StackLayout class="hr-light m-10"></StackLayout>
+            <Label text="Forgot Password?" class="text-center footnote" (tap)="forgotPassword()" [opacity]="isLoggingIn ? 1 : 0"></Label>
+        </StackLayout>
+    </StackLayout>
+</GridLayout>

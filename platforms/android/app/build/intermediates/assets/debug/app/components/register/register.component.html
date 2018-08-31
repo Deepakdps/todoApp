@@ -1,0 +1,28 @@
+<GridLayout backgroundColor="#CCCCCC">
+    <StackLayout margin="10" verticalAlignment="center">
+        <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
+            <StackLayout class="input-field">
+                <Label text="First Name" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" [(ngModel)]="firstname"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Last Name" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" [(ngModel)]="lastname"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Email" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" [(ngModel)]="email"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Password" class="label font-weight-bold m-b-5"></Label>
+                <TextField secure="true" class="input" [(ngModel)]="password"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <Button class="btn btn-primary btn-rounded-lg" text="REGISTER" (tap)="register()"></Button>
+            <Label (tap)="goBack()" text="Already a member? Login here." class="text-center footnote"></Label>
+        </StackLayout>
+    </StackLayout>
+</GridLayout>
