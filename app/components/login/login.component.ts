@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { SnackBar } from 'nativescript-snackbar';
 const firebase = require('nativescript-plugin-firebase');
 import { RouterExtensions } from 'nativescript-angular/router';
+import { User } from '~/components/models/user.model';
+import { FirebaseService } from '~/components/services/firebase.service';
 
 @Component({
   moduleId: module.id,
@@ -9,31 +11,24 @@ import { RouterExtensions } from 'nativescript-angular/router';
   templateUrl: 'login.component.html'
 })
 export class LoginComponent {
-  isLoggingIn = true;
-  public email: String = '';
-  public password: String = '';
+  user: User;
 
-  public constructor(private router: RouterExtensions) {}
+  constructor(
+    private router: RouterExtensions,
+    private firebaseService: FirebaseService
+  ) {
+    this.user = new User();
+    this.user.email = '';
+    this.user.password = '';
+  }
   public login() {
-    if (this.email && this.password) {
-      firebase
-        .login({
-          type: firebase.LoginType.PASSWORD,
-          passwordOptions: {
-            email: this.email,
-            password: this.password
-          }
-        })
-        .then(result => {
-          // alert(JSON.stringify(result));
-          new SnackBar().simple('Correct Credentials!');
-          this.router.navigate(['/secure']);
-        })
-        .catch(error => {
-          new SnackBar().simple('Incorrect Credentials!');
-        });
-    } else {
-      new SnackBar().simple('All Fields Required!');
-    }
+    this.firebaseService
+      .login(this.user)
+      .then(() => {
+        this.router.navigate(['/secure'], { clearHistory: true });
+      })
+      .catch((message: any) => {
+        alert(message);
+      });
   }
 }
