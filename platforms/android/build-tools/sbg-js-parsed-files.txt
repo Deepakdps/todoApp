@@ -4,6 +4,7 @@
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/item/item.service.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/item/item.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/app.module.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/authGuard.service.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/app.routing.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-plugin-firebase/firebase-common.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-plugin-firebase/scripts/entitlements-after-prepare.js
@@ -266,9 +267,11 @@
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/index.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl-common.js
-/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/firebase.service.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/login/login.component.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/secure/secure.component.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/models/user.model.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/register/register.component.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/services/firebase.service.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/services/backend.service.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/main.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/app.component.js

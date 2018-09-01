@@ -14,7 +14,7 @@
             <Button class="btn btn-primary" text="Login" (tap)="login()"></Button>
             <Label [nsRouterLink]="['/register']" text="Not a member? Register here." class="text-center footnote"></Label>
             <StackLayout class="hr-light m-10"></StackLayout>
-            <Label text="Forgot Password?" class="text-center footnote" (tap)="forgotPassword()" [opacity]="isLoggingIn ? 1 : 0"></Label>
+            <Label text="Forgot Password?" class="text-center footnote" (tap)="forgotPassword()"></Label>
         </StackLayout>
     </StackLayout>
 </GridLayout>

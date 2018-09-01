@@ -4,31 +4,61 @@ const firebase = require('nativescript-plugin-firebase');
 import { RouterExtensions } from 'nativescript-angular/router';
 import { User } from '~/components/models/user.model';
 import { FirebaseService } from '~/components/services/firebase.service';
+import { Page } from 'tns-core-modules/ui/page/page';
+import { prompt } from 'ui/dialogs';
 
 @Component({
   moduleId: module.id,
   selector: 'ns-login',
   templateUrl: 'login.component.html'
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
   user: User;
 
   constructor(
     private router: RouterExtensions,
-    private firebaseService: FirebaseService
+    private firebaseService: FirebaseService,
+    private _page: Page
   ) {
     this.user = new User();
-    this.user.email = '';
-    this.user.password = '';
+    this.user.email = 'deepakdps431@gmail.com';
+    this.user.password = '143143143';
+  }
+  ngOnInit() {
+    this._page.actionBarHidden = true;
   }
   public login() {
     this.firebaseService
       .login(this.user)
-      .then(() => {
-        this.router.navigate(['/secure'], { clearHistory: true });
+      .then(result => {
+        if (result) {
+          this.router.navigate(['/secure'], { clearHistory: true });
+        }
       })
       .catch((message: any) => {
         alert(message);
       });
+  }
+  forgotPassword() {
+    prompt({
+      title: 'Forgot Password',
+      message:
+        'Enter the email address you used to register to reset your password.',
+      defaultText: '',
+      okButtonText: 'Ok',
+      cancelButtonText: 'Cancel'
+    }).then(data => {
+      if (data.result) {
+        this.firebaseService
+          .resetPassword(data.text.trim())
+          .then((result: any) => {
+            if (result) {
+              alert(result);
+            } else {
+              alert('pls type correct email');
+            }
+          });
+      }
+    });
   }
 }

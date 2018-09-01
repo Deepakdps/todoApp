@@ -38,4 +38,24 @@ export class FirebaseService {
         }
       );
   }
+  resetPassword(email) {
+    return firebase
+      .resetPassword({
+        email: email
+      })
+      .then(
+        (result: any) => {
+          // alert(JSON.stringify(result));
+          return JSON.stringify(result);
+        },
+        function(errorMessage: any) {
+          alert(errorMessage);
+        }
+      )
+      .catch(this.handleErrors);
+  }
+  handleErrors(error) {
+    console.log(JSON.stringify(error));
+    return Promise.reject(error.message);
+  }
 }

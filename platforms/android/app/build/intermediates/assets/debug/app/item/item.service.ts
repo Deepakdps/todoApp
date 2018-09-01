@@ -5,7 +5,7 @@ import { Item } from './item';
 @Injectable()
 export class ItemService {
   private items = new Array<Item>(
-    { id: 1, name: 'deepak', role: 'Goalkeeper' },
+    { id: 1, name: 'deepakiscoolffffff', role: 'Goalkeeper' },
     { id: 3, name: 'molly', role: 'Defender' },
     { id: 4, name: 'geeethu', role: 'Midfielder' },
     { id: 5, name: 'Sergio', role: 'Midfielder' },

@@ -44,4 +44,3 @@
 /home/user/Documents/login-project/platforms/android/app/build/exploded-dependencies/10/classes.jar
 /home/user/Documents/login-project/platforms/android/app/build/exploded-dependencies/22/classes.jar
 /home/user/Documents/login-project/platforms/android/app/build/exploded-dependencies/31/classes.jar
-/home/user/Documents/login-project/platforms/android/app/build/intermediates/classes/debug

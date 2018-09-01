@@ -9,7 +9,7 @@ import { RegisterComponent } from '~/components/register/register.component';
 import { SecureComponent } from '~/components/secure/secure.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/secure', pathMatch: 'full' },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'secure', component: SecureComponent },
   { path: 'item/:id', component: ItemDetailComponent },
