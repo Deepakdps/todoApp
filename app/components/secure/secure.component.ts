@@ -5,6 +5,8 @@ import * as ApplicationSettings from 'application-settings';
 import { Item } from '../../item/item';
 import { ItemService } from '../../item/item.service';
 import { Observable } from 'rxjs';
+import { Data } from '~/components/models/data.model';
+import { FirebaseService } from '~/components/services/firebase.service';
 const firebase = require('nativescript-plugin-firebase');
 
 @Component({
@@ -13,20 +15,36 @@ const firebase = require('nativescript-plugin-firebase');
   templateUrl: 'secure.component.html'
 })
 export class SecureComponent implements OnInit {
-  // public items$: Observable<any>;
-  name: String;
-  _allItems: any[];
+  data: Data;
+
   items: Item[];
+  name: string;
   ngOnInit(): void {
     this.items = this.itemService.getItems();
   }
   public constructor(
     private router: RouterExtensions,
     private itemService: ItemService,
-    private ngZone: NgZone
-  ) {}
+    private ngZone: NgZone,
+    private firebaseService: FirebaseService
+  ) {
+    this.data = new Data();
+    this.data.id = '';
+    this.data.date = '';
+    this.data.description = '';
+    this.data.name = '';
+    this.data.UID = '';
+  }
   public logout() {
     this.router.navigate(['/login']);
+  }
+
+  add() {
+    let myTodo: string = this.name;
+    this.firebaseService.add(myTodo).then((message: any) => {
+      //  this.name = "";
+      alert(message);
+    });
   }
   // getMyTodos(): Observable<any> {
   //   return firebase.query('/Todos', {
@@ -40,15 +58,4 @@ export class SecureComponent implements OnInit {
   //     //   }
   //   });
   // }
-
-  add() {
-    firebase.push('/Todos', { name: this.name }).then(
-      function(result: any) {
-        console.log('created key: ' + result.key);
-      },
-      function(errorMessage: any) {
-        console.log(errorMessage);
-      }
-    );
-  }
 }

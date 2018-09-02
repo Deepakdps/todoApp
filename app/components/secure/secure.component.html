@@ -6,7 +6,7 @@
 <StackLayout backgroundColor="#FFFFFF" rows="70, 20, *" columns="*, *">
     <StackLayout class="card" height="90" row="0">
         <GridLayout columns="*,*" class="form" margin="10">
-            <TextField class="input input-border" height="50" [(ngModel)]="name" col="0" #gift [(ngModel)]="name"></TextField>
+            <TextField class="input input-border" height="50" [(ngModel)]="name" col="0" [(ngModel)]="name"></TextField>
             <Button class="btn btn-primary" col="1" text="Save" (tap)="add()"></Button>
         </GridLayout>
     </StackLayout>
