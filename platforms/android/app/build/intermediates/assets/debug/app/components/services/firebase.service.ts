@@ -54,6 +54,24 @@ export class FirebaseService {
       )
       .catch(this.handleErrors);
   }
+
+  add(myTodo: string) {
+    return firebase
+      .push('/Todos', {
+        name: myTodo,
+        UID: BackendService.token,
+        date: 0 - Date.now()
+      })
+      .then(
+        function(result: any) {
+          return 'Gift added to your wishlist!';
+        },
+        function(errorMessage: any) {
+          console.log(errorMessage);
+        }
+      );
+  }
+
   handleErrors(error) {
     console.log(JSON.stringify(error));
     return Promise.reject(error.message);

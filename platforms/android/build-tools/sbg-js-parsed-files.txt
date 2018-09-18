@@ -111,6 +111,7 @@
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/view-util.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-static.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-common.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-localstorage/localstorage.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/file-system/file-system-access.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/file-system/file-system.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/application-settings/application-settings-common.js
@@ -269,6 +270,7 @@
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl-common.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/login/login.component.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/secure/secure.component.js
+/home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/models/data.model.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/models/user.model.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/register/register.component.js
 /home/user/Documents/login-project/platforms/android/app/src/main/assets/app/components/services/firebase.service.js

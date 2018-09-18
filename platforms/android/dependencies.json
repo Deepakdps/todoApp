@@ -4,6 +4,10 @@
         "directory": "../../node_modules/nativescript-angular"
     },
     {
+        "name": "nativescript-localstorage",
+        "directory": "../../node_modules/nativescript-localstorage"
+    },
+    {
         "name": "nativescript-plugin-firebase",
         "directory": "../../node_modules/nativescript-plugin-firebase"
     },

@@ -36,6 +36,7 @@ export class SecureComponent implements OnInit {
     this.data.UID = '';
   }
   public logout() {
+    localStorage.clear();
     this.router.navigate(['/login']);
   }
 

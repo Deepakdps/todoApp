@@ -9,6 +9,7 @@
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,
     "nativescript-angular": true,
+    "nativescript-localstorage": true,
     "nativescript-plugin-firebase": true,
     "nativescript-snackbar": true,
     "nativescript-theme-core": true,

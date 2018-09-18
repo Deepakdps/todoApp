@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
   ) {
     this.user = new User();
     this.user.email = 'deepakdps431@gmail.com';
-    this.user.password = 'dddpppsss';
+    this.user.password = '143143143';
   }
   ngOnInit() {
     this._page.actionBarHidden = true;
@@ -32,6 +32,7 @@ export class LoginComponent implements OnInit {
       .login(this.user)
       .then(result => {
         if (result) {
+          console.log('result', result);
           this.router.navigate(['/secure'], { clearHistory: true });
         }
       })
@@ -43,7 +44,7 @@ export class LoginComponent implements OnInit {
     prompt({
       title: 'Forgot Password',
       message:
-        'Enter the email address you used to register for Giftler to reset your password.',
+        'Enter the email address you used to register to reset your password.',
       defaultText: '',
       okButtonText: 'Ok',
       cancelButtonText: 'Cancel'
@@ -54,6 +55,8 @@ export class LoginComponent implements OnInit {
           .then((result: any) => {
             if (result) {
               alert(result);
+            } else {
+              alert('pls type correct email');
             }
           });
       }
