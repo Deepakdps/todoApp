@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
       .login(this.user)
       .then(result => {
         if (result) {
-          console.log('result', result);
+          // console.log('result', result);
           localStorage.setItem('loggedIn', JSON.stringify(this.user.email));
           this.router.navigate(['/secure'], { clearHistory: true });
         }

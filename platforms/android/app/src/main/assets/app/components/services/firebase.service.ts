@@ -88,9 +88,9 @@ export class FirebaseService {
 
       let onValueEvent = (snapshot: any) => {
         this.ngZone.run(() => {
-          console.log('snapshot', snapshot.value);
+          // console.log('snapshot', snapshot.value);
           let results = this.handleSnapshot(snapshot.value);
-          console.log(JSON.stringify(results));
+          // console.log(JSON.stringify(results));
           observer.next(results);
         });
       };

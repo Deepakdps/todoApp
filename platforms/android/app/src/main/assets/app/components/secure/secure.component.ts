@@ -26,6 +26,7 @@ export class SecureComponent implements OnInit {
   public datas$: Observable<any>;
   ngOnInit(): void {
     // this.items = this.itemService.getItems();
+    console.log('inside oninit');
     this.datas$ = <any>this.firebaseService.getMyWishList();
   }
   public constructor(
@@ -56,5 +57,9 @@ export class SecureComponent implements OnInit {
     this.firebaseService.delete(data).catch(() => {
       alert('An error occurred while deleting an item from your list.');
     });
+  }
+
+  viewDetail(id: string) {
+    this.router.navigate(['/list-detail', id]);
   }
 }
