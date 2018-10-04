@@ -15,48 +15,46 @@ const firebase = require('nativescript-plugin-firebase');
   templateUrl: 'secure.component.html'
 })
 export class SecureComponent implements OnInit {
-  data: Data;
-
-  items: Item[];
+  id: string;
   name: string;
+  date: string;
+  description: string;
+  imagepath: string;
+  UID: string;
+
+  public data: Data;
+  public datas$: Observable<any>;
   ngOnInit(): void {
-    this.items = this.itemService.getItems();
+    // this.items = this.itemService.getItems();
+    this.datas$ = <any>this.firebaseService.getMyWishList();
   }
   public constructor(
     private router: RouterExtensions,
-    private itemService: ItemService,
-    private ngZone: NgZone,
     private firebaseService: FirebaseService
-  ) {
-    this.data = new Data();
-    this.data.id = '';
-    this.data.date = '';
-    this.data.description = '';
-    this.data.name = '';
-    this.data.UID = '';
-  }
+  ) {}
   public logout() {
     localStorage.clear();
-    this.router.navigate(['/login']);
+    this.router.navigate(['/login'], { clearHistory: true });
   }
 
   add() {
-    let myTodo: string = this.name;
+    this.data = new Data(
+      this.id,
+      this.name,
+      this.date,
+      this.description,
+      this.imagepath,
+      this.UID
+    );
+    let myTodo: string = this.data.name;
     this.firebaseService.add(myTodo).then((message: any) => {
-      //  this.name = "";
+      this.name = '';
       alert(message);
     });
   }
-  // getMyTodos(): Observable<any> {
-  //   return firebase.query('/Todos', {
-  //     //   // set this to true if you want to check if the value exists or just want the event to fire once
-  //     //   // default false, so it listens continuously.
-  //     //   // Only when true, this function will return the data in the promise as well!
-  //     //   singleEvent: true,
-  //     //   orderBy: {
-  //     //     type: firebase.QueryOrderByType.CHILD,
-  //     //     value: 'since' // mandatory when type is 'child'
-  //     //   }
-  //   });
-  // }
+  delete(data: Data) {
+    this.firebaseService.delete(data).catch(() => {
+      alert('An error occurred while deleting an item from your list.');
+    });
+  }
 }

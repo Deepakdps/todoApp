@@ -6,18 +6,19 @@
 <StackLayout backgroundColor="#FFFFFF" rows="70, 20, *" columns="*, *">
     <StackLayout class="card" height="90" row="0">
         <GridLayout columns="*,*" class="form" margin="10">
-            <TextField class="input input-border" height="50" [(ngModel)]="name" col="0" [(ngModel)]="name"></TextField>
+            <TextField class="input input-border" height="50" #data col="0" [(ngModel)]="name"></TextField>
             <Button class="btn btn-primary" col="1" text="Save" (tap)="add()"></Button>
         </GridLayout>
     </StackLayout>
     <StackLayout class="hr-dark m-10"></StackLayout>
     <StackLayout row="2" margin="5">
-        <ListView [items]="items">
+        <ListView [items]="datas$ | async">
             <ng-template let-item="item">
                 <GridLayout columns="auto,*,auto">
                     <Image class="m-5" horizontalAlignment="left" col="0" width="20" height="20" [src]="'~/assets/edit.png'"></Image>
                     <Label class="m-5" (tap)="viewDetail(item.id)" col="1" [text]='item.name'></Label>
-                    <Image class="m-5" col="2" horizontalAlignment="right" width="40" height="40" (tap)="delete(item)" [src]="'~/assets/trash.png'"></Image>
+                    <Image class="m-5" col="2" horizontalAlignment="right" width="40" height="40" (tap)="delete(item)"
+                        [src]="'~/assets/trash.png'"></Image>
                 </GridLayout>
             </ng-template>
         </ListView>
