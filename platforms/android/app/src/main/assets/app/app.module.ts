@@ -3,9 +3,6 @@ import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 
-import { ItemService } from './item/item.service';
-import { ItemsComponent } from './item/items.component';
-import { ItemDetailComponent } from './item/item-detail.component';
 import { LoginComponent } from '~/components/login/login.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -23,13 +20,11 @@ import { FirebaseService } from '~/components/services/firebase.service';
   imports: [NativeScriptModule, AppRoutingModule, NativeScriptFormsModule],
   declarations: [
     AppComponent,
-    ItemsComponent,
-    ItemDetailComponent,
     LoginComponent,
     RegisterComponent,
     SecureComponent
   ],
-  providers: [ItemService, BackendService, FirebaseService],
+  providers: [BackendService, FirebaseService],
   schemas: [NO_ERRORS_SCHEMA]
 })
 /*

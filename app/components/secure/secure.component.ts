@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Injectable, NgZone } from '@angular/core';
 import { RouterExtensions } from 'nativescript-angular/router';
 import * as ApplicationSettings from 'application-settings';
-import { Item } from '../../item/item';
-import { ItemService } from '../../item/item.service';
 import { Observable } from 'rxjs';
 import { Data } from '~/components/models/data.model';
 import { FirebaseService } from '~/components/services/firebase.service';
