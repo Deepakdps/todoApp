@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.0.0-alpha1.aar/135dede930953af3345d87a94c39818c/AndroidManifest.xml:17:1-28:12
@@ -41,42 +41,42 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /home/user/.gradle/c
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b5f60402607831b9b98a4145350300d6/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9aa29b3604e18a6b8add87935e608786/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:multidex:1.0.2] /home/user/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/34693aa60e1178f1965cb2e1a5916f18/AndroidManifest.xml:17:1-22:12
-MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/2b57fc117bfa3ebf39c066907530a872/AndroidManifest.xml:2:1-11:12
-MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:2:1-25:12
-MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/767d2d6e31f5552b7e47c8f60f2fbde0/AndroidManifest.xml:2:1-14:12
+MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/77351834865e982835a53b8fe343b021/AndroidManifest.xml:2:1-11:12
+MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:2:1-25:12
+MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/f43d88658086e2147422c9d46af27e2d/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/40f40da58ff30bb1b3896d95b2e9f241/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:3:2-41
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-41
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
 	android:largeScreens
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
 	android:smallScreens
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
 	android:normalScreens
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
 	android:xlargeScreens
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
 uses-sdk
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/AndroidManifest.xml:21:5-23:78
@@ -151,38 +151,38 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/user/.gradle/cache
 MERGED from [com.android.support:support-compat:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9aa29b3604e18a6b8add87935e608786/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:multidex:1.0.2] /home/user/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/34693aa60e1178f1965cb2e1a5916f18/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /home/user/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/34693aa60e1178f1965cb2e1a5916f18/AndroidManifest.xml:20:5-43
-MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/2b57fc117bfa3ebf39c066907530a872/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/2b57fc117bfa3ebf39c066907530a872/AndroidManifest.xml:7:5-9:41
-MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:7:5-9:41
-MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/767d2d6e31f5552b7e47c8f60f2fbde0/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/767d2d6e31f5552b7e47c8f60f2fbde0/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/77351834865e982835a53b8fe343b021/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /home/user/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/77351834865e982835a53b8fe343b021/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/f43d88658086e2147422c9d46af27e2d/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/f43d88658086e2147422c9d46af27e2d/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/40f40da58ff30bb1b3896d95b2e9f241/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/40f40da58ff30bb1b3896d95b2e9f241/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
-INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
 uses-permission#android.permission.INTERNET
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/e7d9cb7ae5283b091b95aaa5dc82b9ed/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/e7d9cb7ae5283b091b95aaa5dc82b9ed/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/2c2581698ffd6c4c74f914d374ec60f8/AndroidManifest.xml:23:5-67
@@ -196,9 +196,9 @@ MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/user/.gradle/caches/
 MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/c9a7095f595838eca57f241c5f9371e7/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/c9a7095f595838eca57f241c5f9371e7/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
 application
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/AndroidManifest.xml:29:5-20
@@ -257,54 +257,54 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/user/.gradle/cach
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b5f60402607831b9b98a4145350300d6/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9aa29b3604e18a6b8add87935e608786/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /home/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9aa29b3604e18a6b8add87935e608786/AndroidManifest.xml:25:5-29:19
-MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:12:5-23:19
-MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:12:5-23:19
-MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/767d2d6e31f5552b7e47c8f60f2fbde0/AndroidManifest.xml:11:5-12:19
-MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/767d2d6e31f5552b7e47c8f60f2fbde0/AndroidManifest.xml:11:5-12:19
+MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:12:5-23:19
+MERGED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:12:5-23:19
+MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/f43d88658086e2147422c9d46af27e2d/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /home/user/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/f43d88658086e2147422c9d46af27e2d/AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/40f40da58ff30bb1b3896d95b2e9f241/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/40f40da58ff30bb1b3896d95b2e9f241/AndroidManifest.xml:22:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
 	android:icon
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
 	android:allowBackup
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
 	android:theme
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
 activity#com.tns.NativeScriptActivity
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
 	android:label
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
 	android:configChanges
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
 	android:theme
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
 meta-data#SET_THEME_ON_LAUNCH
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
 	android:resource
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
 action#android.intent.action.MAIN
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
 category#android.intent.category.LAUNCHER
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
 activity#com.tns.ErrorReportActivity
-ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
 	android:name
-		ADDED from /home/user/Documents/login-project/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+		ADDED from /home/user/Documents/todoApp/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/859aaa5ac660a87d8f57edbf8ce6f55c/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/AndroidManifest.xml:25:5-27:41
@@ -548,13 +548,13 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/user/.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/user/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/27f46268b688eba9ac223a75c6475543/AndroidManifest.xml:24:13-58
 service#org.nativescript.plugins.firebase.MyFirebaseMessagingService
-ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:13:9-17:19
+ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:13:9-17:19
 	android:name
-		ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:13:18-93
+		ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:13:18-93
 service#org.nativescript.plugins.firebase.MyFirebaseInstanceIDService
-ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:18:9-22:19
+ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:18:9-22:19
 	android:name
-		ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/ae0ad9ba5146c32e59a44652b2e46d96/AndroidManifest.xml:18:18-94
+		ADDED from [:firebase-release:] /home/user/.gradle/caches/transforms-1/files-1.1/firebase-release.aar/3544bd0757f984e06a7c7203d5a131e6/AndroidManifest.xml:18:18-94
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/user/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3454ece594d2a89a87e1adbddcfab8ba/AndroidManifest.xml:25:9-27:47
 	android:value

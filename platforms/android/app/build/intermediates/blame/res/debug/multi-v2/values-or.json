@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Documents/login-project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/home/user/Documents/todoApp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/c481c7c88b0f437aba618d25b53c2fa4/res/values-or/values.xml",

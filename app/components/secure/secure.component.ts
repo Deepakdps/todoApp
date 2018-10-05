@@ -48,7 +48,7 @@ export class SecureComponent implements OnInit {
     let myTodo: string = this.data.name;
     this.firebaseService.add(myTodo).then((message: any) => {
       this.name = '';
-      alert(message);
+      console.log(message);
     });
   }
   delete(data: Data) {

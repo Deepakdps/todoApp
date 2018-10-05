@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Documents/login-project/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/user/Documents/todoApp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/a0a438321c057408295d33c74f6d3bec/res/values-v21/values-v21.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/home/user/Documents/login-project/platforms/android/app/src/main/res/values-v21/colors.xml",
+                    "source": "/home/user/Documents/todoApp/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "1",
-                        "startOffsets": "52",
-                        "endColumns": "40",
-                        "endOffsets": "91"
+                        "startLines": "4,19,10,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "87,745,365,585",
+                        "endLines": "7,21,12,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "299,885,519,739"
                     },
                     "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "159",
-                        "endColumns": "43",
-                        "endOffsets": "198"
+                        "startLines": "7,230,271,274",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "398,17177,19671,19830",
+                        "endLines": "10,232,273,276",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "610,17317,19825,19984"
                     }
                 },
                 {
@@ -59,22 +61,20 @@
                     }
                 },
                 {
-                    "source": "/home/user/Documents/login-project/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "source": "/home/user/Documents/todoApp/platforms/android/app/src/main/res/values-v21/colors.xml",
                     "from": {
-                        "startLines": "4,19,10,15",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "87,745,365,585",
-                        "endLines": "7,21,12,17",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "299,885,519,739"
+                        "startLines": "2",
+                        "startColumns": "1",
+                        "startOffsets": "52",
+                        "endColumns": "40",
+                        "endOffsets": "91"
                     },
                     "to": {
-                        "startLines": "7,230,271,274",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "398,17177,19671,19830",
-                        "endLines": "10,232,273,276",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "610,17317,19825,19984"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endColumns": "43",
+                        "endOffsets": "198"
                     }
                 },
                 {

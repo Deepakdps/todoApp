@@ -1,1 +1,1 @@
-/home/user/Documents/login-project/platforms/android/app/src/main/java
+/home/user/Documents/todoApp/platforms/android/app/src/main/java

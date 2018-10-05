@@ -1,4 +1,4 @@
-#Tue Sep 18 23:04:58 IST 2018
-base.0=/home/user/Documents/login-project/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Fri Oct 05 12:15:13 IST 2018
+base.0=/home/user/Documents/todoApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

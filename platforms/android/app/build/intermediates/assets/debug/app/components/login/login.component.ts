@@ -6,6 +6,7 @@ import { User } from '~/components/models/user.model';
 import { FirebaseService } from '~/components/services/firebase.service';
 import { Page } from 'tns-core-modules/ui/page/page';
 import { prompt } from 'ui/dialogs';
+var localStorage = require('nativescript-localstorage');
 
 @Component({
   moduleId: module.id,
@@ -22,7 +23,7 @@ export class LoginComponent implements OnInit {
   ) {
     this.user = new User();
     this.user.email = 'deepakdps431@gmail.com';
-    this.user.password = '143143143';
+    this.user.password = 'dddpppsss';
   }
   ngOnInit() {
     this._page.actionBarHidden = true;
@@ -32,7 +33,8 @@ export class LoginComponent implements OnInit {
       .login(this.user)
       .then(result => {
         if (result) {
-          console.log('result', result);
+          // console.log('result', result);
+          localStorage.setItem('loggedIn', JSON.stringify(this.user.email));
           this.router.navigate(['/secure'], { clearHistory: true });
         }
       })
