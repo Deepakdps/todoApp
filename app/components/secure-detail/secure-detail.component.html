@@ -1,0 +1,9 @@
+<ScrollView>
+    <StackLayout #myGift class="card form">
+        <TextField [text]="name" class="m-t-10 input input-border" [(ngModel)]="name"></TextField>
+        <GridLayout columns="*,*">
+            <Button col="0" class="btn gold" text="CANCEL" (tap)="cancel()"></Button>
+            <Button col="1" class="btn btn-primary" text="SAVE" (tap)="editTodo(id)"></Button>
+        </GridLayout>
+    </StackLayout>
+</ScrollView>

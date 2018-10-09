@@ -97,6 +97,27 @@ export class FirebaseService {
       firebase.addValueEventListener(onValueEvent, `/${path}`);
     });
   }
+  getMyTodo(id: string): Observable<any> {
+    return new Observable((observer: any) => {
+      observer.next(this._allItems.filter(s => s.id === id)[0]);
+    });
+  }
+
+  editName(id: string, name: string) {
+    this.publishUpdates();
+    return firebase
+      .update('/Todos/' + id + '', {
+        name: name
+      })
+      .then(
+        function(result: any) {
+          return 'You have successfully edited !';
+        },
+        function(errorMessage: any) {
+          console.log(errorMessage);
+        }
+      );
+  }
 
   handleSnapshot(data: any) {
     //empty array, then refill and filter

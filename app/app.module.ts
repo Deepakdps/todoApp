@@ -11,6 +11,7 @@ import { RegisterComponent } from '~/components/register/register.component';
 import { SecureComponent } from '~/components/secure/secure.component';
 import { BackendService } from '~/components/services/backend.service';
 import { FirebaseService } from '~/components/services/firebase.service';
+import { SecureDetailComponent } from '~/components/secure-detail/secure-detail.component';
 
 // Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
 // import { NativeScriptHttpModule } from "nativescript-angular/http";
@@ -22,7 +23,8 @@ import { FirebaseService } from '~/components/services/firebase.service';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    SecureComponent
+    SecureComponent,
+    SecureDetailComponent
   ],
   providers: [BackendService, FirebaseService],
   schemas: [NO_ERRORS_SCHEMA]

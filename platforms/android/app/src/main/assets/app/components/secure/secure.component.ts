@@ -58,6 +58,6 @@ export class SecureComponent implements OnInit {
   }
 
   viewDetail(id: string) {
-    this.router.navigate(['/list-detail', id]);
+    this.router.navigate(['/secure-detail', id]);
   }
 }
