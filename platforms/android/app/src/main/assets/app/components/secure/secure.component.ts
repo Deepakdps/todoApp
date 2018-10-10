@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
 import { Data } from '~/components/models/data.model';
 import { FirebaseService } from '~/components/services/firebase.service';
 const firebase = require('nativescript-plugin-firebase');
+import * as dialogs from 'ui/dialogs';
 
 @Component({
   moduleId: module.id,
@@ -32,8 +33,22 @@ export class SecureComponent implements OnInit {
     private firebaseService: FirebaseService
   ) {}
   public logout() {
-    localStorage.clear();
-    this.router.navigate(['/login'], { clearHistory: true });
+    dialogs
+      .confirm({
+        title: 'Confirm Logut',
+        message: 'Are you sure you want to Logout?',
+        cancelButtonText: 'Cancel',
+
+        okButtonText: 'Ok'
+      })
+      .then(result => {
+        // result argument is boolean
+        console.log('Dialog result: ' + result);
+        if (result === true) {
+          localStorage.clear();
+          this.router.navigate(['/login'], { clearHistory: true });
+        }
+      });
   }
 
   add() {
@@ -48,7 +63,7 @@ export class SecureComponent implements OnInit {
     let myTodo: string = this.data.name;
     this.firebaseService.add(myTodo).then((message: any) => {
       this.name = '';
-      console.log(message);
+      alert(message);
     });
   }
   delete(data: Data) {

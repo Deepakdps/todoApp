@@ -15,7 +15,7 @@
         <ListView [items]="datas$ | async">
             <ng-template let-item="item">
                 <GridLayout columns="auto,*,auto">
-                    <Image class="m-5" horizontalAlignment="left" col="0" width="20" height="20" [src]="'~/assets/edit.png'"></Image>
+                    <!-- <Image class="m-5" horizontalAlignment="left" col="0" width="20" height="20" [src]="'~/assets/edit.png'"></Image> -->
                     <Label class="m-5" (tap)="viewDetail(item.id)" col="1" [text]='item.name'></Label>
                     <Image class="m-5" col="2" horizontalAlignment="right" width="40" height="40" (tap)="delete(item)"
                         [src]="'~/assets/trash.png'"></Image>

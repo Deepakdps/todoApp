@@ -70,7 +70,7 @@ export class FirebaseService {
       })
       .then(
         function(result: any) {
-          return ' added :) ';
+          return ' added :)';
         },
         function(errorMessage: any) {
           console.log(errorMessage);
@@ -111,7 +111,7 @@ export class FirebaseService {
       })
       .then(
         function(result: any) {
-          return 'You have successfully edited !';
+          return 'edited :)';
         },
         function(errorMessage: any) {
           console.log(errorMessage);

@@ -59,7 +59,7 @@ export class SecureDetailComponent implements OnInit {
   editTodo(id: string) {
     this.firebaseService.editName(id, this.name).then(
       (result: any) => {
-        console.log(result);
+        alert(result);
         if (result) {
           this.location.back();
         }
