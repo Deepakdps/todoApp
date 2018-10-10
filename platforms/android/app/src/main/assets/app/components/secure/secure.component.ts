@@ -73,6 +73,7 @@ export class SecureComponent implements OnInit {
   }
 
   viewDetail(id: string) {
+    console.log('hereeeeeeeeeeeeeeeeeeeeeeeeeeeee');
     this.router.navigate(['/secure-detail', id]);
   }
 }
