@@ -13,7 +13,9 @@ For getting started with angular for mobiles with nativescript click [Here](http
 ```
 tns run android
 ```
-by plugging in your mobile with USB Cable after enabling developer optons
+by plugging in your mobile with USB Cable after enabling developer options
+
+
 -To debug run
 ```
 tns debug android --start
